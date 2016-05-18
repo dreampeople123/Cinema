@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="json-default">
+    		<action name="Type_getTypes" class="com.yc.cinema.action.TypeAction" method="getTypes">
+    		<!-- 	<result type="json">
+    				<param name="root">filmtypes</param>
+    			</result>  -->
+    		</action>
+    		<action name="*_*" class="com.yc.cinema.action.{1}Action" method="{2}">
+    			 <result >/page/result.jsp</result> 
+    			 <result name="add_failue">/page/add.jsp?re=2</result>
+    		</action>
+    </package> 
+     
+</struts>
