@@ -7,6 +7,5 @@ import com.yc.cinema.entity.Filminfo;
 
 public interface FilminfoMapper {
    List<Filminfo> getFilmsByFilmBean(FilmBean filmBean);
-
-int addFilm(FilmBean filmBean);
+   int addFilm(FilmBean filmBean);
 }

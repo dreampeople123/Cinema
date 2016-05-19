@@ -2,6 +2,9 @@ package com.yc.cinema.entity;
 
 import java.io.Serializable;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+@Component("filmBean")
 public class FilmBean implements Serializable{
 
 	 /**
@@ -110,7 +113,7 @@ public class FilmBean implements Serializable{
 
 
 
-		public FilmBean(String filmname, String typeid, String actor,
+/*		public FilmBean(String filmname, String typeid, String actor,
 				String director, Double minprice, Double maxprice,
 				Double ticketprice) {
 			super();
@@ -128,7 +131,7 @@ public class FilmBean implements Serializable{
 		public FilmBean() {
 			super();
 			// TODO Auto-generated constructor stub
-		}
+		}*/
 	    
 
 

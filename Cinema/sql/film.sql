@@ -11,7 +11,7 @@ create table FILMINFO --电影信息
   DIRECTOR    VARCHAR2(50 CHAR),
   TICKETPRICE NUMBER(19) not null
 );
-
+select* from emp;
 -- Create table
 create table FILMTYPE --电影类型
 (

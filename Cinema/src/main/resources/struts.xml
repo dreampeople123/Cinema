@@ -7,6 +7,8 @@
 
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="true" />
+          <!-- 把struts的action对象交给string容器管理 -->
+    <constant name="struts.objectFactory " value="spring" />
 
     <package name="default" namespace="/" extends="json-default">
     		<action name="Type_getTypes" class="com.yc.cinema.action.TypeAction" method="getTypes">

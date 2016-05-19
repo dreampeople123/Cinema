@@ -11,7 +11,7 @@
 <script type="text/javascript" src="/Cinema/js/ajaxType.js"></script>
 </head>
 <body>
-	<form action="Film_search.action" method="post">
+	<form action="film_search.action" method="post">
 		<table>
 			<tr>
 				<td>电影名称：</td>
