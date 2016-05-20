@@ -57,7 +57,7 @@
 </head>
 
 <body>
-	<form action="Film_add" method="post" onsubmit="return validate()">
+	<form action="film_add" method="post" onsubmit="return validate()">
 		<table>
 			<tr>
 				<td colspan="3"><div>

@@ -1,8 +1,15 @@
 package com.yc.cinema.entity;
 
+import java.io.Serializable;
 
-public class Filminfo {
-    private Integer filmid;
+
+public class Filminfo  implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 420550072415312024L;
+
+	private Integer filmid;
 
     private String filmname;
 

@@ -1,7 +1,14 @@
 package com.yc.cinema.entity;
 
-public class Filmtype {
-    private Integer typeid;
+import java.io.Serializable;
+
+public class Filmtype implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -7358698334234355336L;
+
+	private Integer typeid;
 
     private String typename;
 
